@@ -62,7 +62,7 @@ void installVSCode() {
     system("proot-distro install fedora > /dev/null 2>&1");
     
     animateText("\nLaunching VS Code Server...\n", 20);
-    system("termux-open-url https://crosslink-sp.vercel.app");
+    system("termux-open-url https://crossberry.vercel.app");
     system("proot-distro login fedora -- bash -c 'curl -fsSL https://code-server.dev/install.sh | sh'");
     system("proot-distro login fedora -- bash -c 'export PASSWORD=\"password\" && code-server'");
 }
