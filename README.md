@@ -13,7 +13,7 @@ android code editors
 
 `type this in termux`
 ```sh
-pkg install wgit && wgit https://raw.githubusercontent.com/crosslink369/cl_Code_editor/refs/heads/main/Cl-e.c  &&  gcc Cl-e.c -o cl-editor && ./cl-editor
+pkg install wget && wget https://raw.githubusercontent.com/crosslink369/cl_Code_editor/refs/heads/main/Cl-e.c  &&  gcc Cl-e.c -o cl-editor && ./cl-editor
 ```
 ### step 3
 select option 1 or 2
