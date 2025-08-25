@@ -21,4 +21,4 @@ select option 1 or 2
 ```
 code-server password = 'password'
 ```
-run to browser search [https://localhost:8080](https://localhost:8080)
+run to browser search [localhost:8080/?folder=/sdcard](localhost:8080/?folder=/sdcard)
